@@ -1,6 +1,6 @@
 /* ============================================================
    TURNKEY RECRUITING — Executive Search
-   BRAND: Black + Red · Plus Jakarta Sans
+   BRAND: Black + Red · Satoshi (Fontshare)
    ============================================================ */
 
 :root {
@@ -41,7 +41,7 @@
   --shadow-feature: 0 4px 24px rgba(220, 38, 38, 0.20), 0 30px 80px rgba(0, 0, 0, 0.18);
   --shadow-red:     0 4px 18px rgba(220, 38, 38, 0.32);
 
-  --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-body: 'Satoshi', system-ui, -apple-system, sans-serif;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -116,8 +116,9 @@ img { max-width: 100%; display: block; }
 .brand-lockup {
   display: inline-flex; align-items: center; gap: 12px;
 }
-.brand-mark { width: 42px; height: 32px; display: inline-block; }
+.brand-mark { width: 44px; height: 33px; display: inline-block; }
 .brand-mark svg { width: 100%; height: 100%; }
+.brand-mark img { width: 100%; height: 100%; object-fit: contain; display: block; }
 .brand-words { display: flex; flex-direction: column; align-items: flex-start; gap: 1px; }
 .brand-name {
   font-family: var(--font-body);
@@ -1115,6 +1116,11 @@ h1 {
 .footer-brand .brand-name { color: #fff; }
 .footer-brand .brand-sub { color: var(--red); }
 .footer-brand .brand-sub::before, .footer-brand .brand-sub::after { background: var(--red); }
+.footer-brand .footer-tagline {
+  font-size: 13px; font-weight: 700; color: var(--red);
+  letter-spacing: 0.04em; margin-top: 18px; max-width: none;
+}
+.footer-brand .footer-tagline + p { margin-top: 8px; }
 .footer-brand p {
   font-size: 14px; color: var(--text-onDark-soft);
   line-height: 1.6; margin-top: 18px; max-width: 320px;
